@@ -139,7 +139,7 @@ public class Main {
                         System.out.println("Terima kasih telah menggunakan aplikasi.");
                         System.out.println("-------------------------------------------------------------");
                         System.out.println("Program dibuat oleh 'Kelompok 4'.");
-                        System.out.println("Kode ini tersedia di GitHub: 'https://github.com/Jowbal/PBO'.");
+                        System.out.println("Kode ini tersedia di GitHub: 'https://github.com/Jowbal/UasPbo'.");
                     }
         
                     default -> System.out.println("Pilihan tidak valid.");
