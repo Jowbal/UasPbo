@@ -11,7 +11,7 @@ Sistem Manajemen Ritel adalah aplikasi yang dirancang untuk membantu pengelolaan
 
 
 ## Cara Menggunakan
-1. **Clone Repository**:bash git clone https://github.com/username/repo.git cd repo
+1. **Clone Repository**:bash git clone https://github.com/Jowbal/UasPbo cd repo
 2. **Jalankan Program**:
    - Pastikan Anda memiliki JDK terinstal.
    - Jalankan program: bash java src/view/Main
