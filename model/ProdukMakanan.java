@@ -14,6 +14,6 @@ public class ProdukMakanan extends Produk {
 
     @Override
     public double hitungTotalNilaiStok() {
-        return harga * stok;
+        return harga * stok; // Menggunakan metode baru
     }
 }

@@ -24,7 +24,10 @@ public class Main {
 
         try (Scanner scanner = new Scanner(System.in)) {
             boolean selesai = false;
-        
+
+        System.out.println("+-------------------------------------------------+");
+        System.out.println("|          PROGRAM MANAJEMEN TOKO RETAIL          |");
+        System.out.println("+-------------------------------------------------+");
             while (!selesai) {
                 System.out.println("\n=== Menu Utama ===");
                 System.out.println("1. Tampilkan Produk");
@@ -134,6 +137,9 @@ public class Main {
                     case 4 -> {
                         selesai = true;
                         System.out.println("Terima kasih telah menggunakan aplikasi.");
+                        System.out.println("-------------------------------------------------------------");
+                        System.out.println("Program dibuat oleh 'Kelompok 4'.");
+                        System.out.println("Kode ini tersedia di GitHub: 'https://github.com/Jowbal/PBO'.");
                     }
         
                     default -> System.out.println("Pilihan tidak valid.");

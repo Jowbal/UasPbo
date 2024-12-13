@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Produk {
+public abstract class Produk implements HitungTotal {
     protected String nama;
     protected double harga;
     protected int stok;
@@ -27,6 +27,16 @@ public abstract class Produk {
         if (stok >= jumlah) {
             stok -= jumlah;
         }
+    }
+
+    /**
+     * Metode ini jangan digunakan lagi.
+     * Pake hitungTotalNilaiStok() buat gantinya.
+     */
+    @Override
+    @Deprecated
+    public double hitungTotal() {
+        return harga * stok; 
     }
 
     public abstract double hitungTotalNilaiStok();

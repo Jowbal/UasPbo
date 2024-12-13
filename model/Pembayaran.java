@@ -1,15 +1,12 @@
 package model;
 
-public abstract class Pembayaran {
+public abstract class Pembayaran implements HitungTotal {
     protected double total;
 
     public Pembayaran(double total) {
         this.total = total;
     }
 
-    public double getTotal() {
-        return total;
-    }
-
+    @Override
     public abstract double hitungTotal();
 }

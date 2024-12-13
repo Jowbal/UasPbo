@@ -1,19 +1,19 @@
 package model;
 
 public class ProdukKecantikan extends Produk {
-    private final String tipeProduk;
+    private final String jenis;
 
-    public ProdukKecantikan(String nama, double harga, int stok, String tipeProduk) {
+    public ProdukKecantikan(String nama, double harga, int stok, String jenis) {
         super(nama, harga, stok);
-        this.tipeProduk = tipeProduk;
+        this.jenis = jenis;
     }
 
-    public String getTipeProduk() {
-        return tipeProduk;
+    public String getJenis() {
+        return jenis;
     }
 
     @Override
     public double hitungTotalNilaiStok() {
-        return harga * stok;
+        return harga * stok; // Menggunakan metode baru
     }
 }
